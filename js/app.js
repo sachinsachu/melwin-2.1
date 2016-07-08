@@ -4,7 +4,13 @@ $(document).ready(function () {
 
 
     $('img').on('click', function () {
-        var images = document.getElementsByTagName('img');
+        var images = [
+            'images/1.jpg',
+            'images/2.jpg',
+            'images/1.jpg',
+            'images/2.jpg',
+            'images/1.jpg',
+        ];
 
         yalb.defaults = {
             src: 'src',
@@ -17,7 +23,7 @@ $(document).ready(function () {
         };
 
         yalb(images);
-            
+
     });
 });
 

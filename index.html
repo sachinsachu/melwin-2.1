@@ -22,6 +22,34 @@
 	<link rel="stylesheet" type="text/css" href="css/yalb.min.css">
 	<script type="text/javascript" src="js/yalb.js"></script>
 
+	<script>
+		$(document).ready(function(){
+			$('img').on('click', function () {
+				var images = [
+					'images/1.jpg',
+					'images/2.jpg',
+					'images/1.jpg',
+					'images/2.jpg',
+					'images/1.jpg',
+				];
+
+				yalb.defaults = {
+					src: 'src',
+					current: 1,
+					'class': 'yalb',
+					loop: true,
+					open: true,
+					width: 0,
+					height: 0
+				};
+
+				yalb(images);
+
+    		});
+
+		});
+	</script
+
 	<script src="js/app.js"></script>
 
 </head>
