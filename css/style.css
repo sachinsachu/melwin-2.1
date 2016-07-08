@@ -1,0 +1,199 @@
+.dg-container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.dg-wrapper{
+	width: 620px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.dg-wrapper a{
+	width: 620px;
+	height: 400px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent url(../images/browser.png) no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.dg-wrapper a.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+	display: block;
+	padding: 1px 0px 0px 1px;
+}
+.dg-wrapper a div{
+	font-style: italic;
+	text-align: center;
+	line-height: 50px;
+	text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+	color: #333;
+	font-size: 16px;
+	width: 100%;
+	bottom: -55px;
+	display: none;
+	position: absolute;
+}
+.dg-wrapper a.dg-center div{
+	display: block;
+}
+.dg-container nav{
+	width: 58px;
+	position: absolute;
+	z-index: 1000;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -29px;
+}
+.dg-container nav span{
+	text-indent: -9000px;
+	float: left;
+	cursor:pointer;
+	width: 24px;
+	height: 25px;
+	opacity: 0.8;
+	background: transparent url(../images/arrows.png) no-repeat top left;
+}
+.dg-container nav span:hover{
+	opacity: 1;
+}
+.dg-container nav span.dg-next{
+	background-position: top right;
+	margin-left: 10px;
+}
+.box{
+	width: 20px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+.myButton {
+	-moz-box-shadow: 7px 5px 30px -7px #3dc21b;
+	-webkit-box-shadow: 7px 5px 30px -7px #3dc21b;
+	box-shadow: 7px 5px 30px -7px #3dc21b;
+	background-color:transparent;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#faf2f2;
+	font-family:Arial;
+	font-size:17px;
+	padding:20px 58px;
+	text-decoration:none;
+	text-shadow:0px 1px 1px #2f6627;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.h10{
+	font-family: "Impact, Charcoal, sans-serif;
+	font-size: 55px;
+	position: relative;
+	font-weight: 700;
+	color: rgb(81, 7, 7);
+	}
+	
+.h11{
+	font-family: "Impact, Charcoal, sans-serif;
+	font-size: 55px;
+	position: relative;
+	font-weight: 700;
+	color: rgb(81, 7, 7);
+	}
+.h12{
+	font-family: ChunkFive;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}	
+	
+.box{
+	width: 20px;
+	height: 40px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.gateway{
+	line-height: 24px;
+	text-align: center;
+	font-size: 30px;
+	background: rgb(174, 222, 183);
+	text-transform: relative;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	-webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+}
+.gateway12{
+	line-height: 24px;
+	
+	font-size: 15px;
+	background: rgb(174, 222, 183);
+	text-transform: relative;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	-webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+}
+.footer{
+text-align: center;
+}
